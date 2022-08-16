@@ -28,7 +28,7 @@ module ImageServer
         format: 'jpg',
       }.merge(options)
 
-      ImageServer::Url.from_hash(@namespace, @image_hash, options)
+      ImageServer::Url.from_hash(@namespace, @image_hash, **options)
     end
   end
 end
