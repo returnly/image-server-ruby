@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['richardiux@gmail.com']
 
   spec.summary       = %q{ImageServer ruby client}
-  spec.homepage      = 'https://github.com/image-server/ruby_image_server'
+  spec.homepage      = 'https://github.com/image-server/image-server-ruby'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
